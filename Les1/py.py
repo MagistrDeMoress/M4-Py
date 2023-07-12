@@ -1,6 +1,4 @@
 def scan_to_palindrome(s):
-    if s == s[::-1]:
-        return True
-    else:
-        return False
+    return s == s[::-1]
 print(scan_to_palindrome('шалаш'))
+#__________________________________________________________________________________________________________________
